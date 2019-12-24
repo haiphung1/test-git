@@ -24,6 +24,7 @@ export default function App() {
   return (
     <ScrollView>
       <View style={styles.container}>
+        <Text style={styles.title}>Hello1</Text>
         <Text style={styles.title}>Hello</Text>
         <Text>My name is {name}</Text>
         <Text>My name is {person.name} age: {person.age}</Text>
